@@ -298,7 +298,7 @@ include::{jetty-home}/modules/requestlog.mod[tags=documentation]
 
 The property `jetty.requestlog.formatString` can be customized using format codes.
 
-include::javadoc[file=jetty-core/jetty-server/src/main/java/org/eclipse/jetty/server/CustomRequestLog.java,xsl=src/main/asciidoc/operations-guide/modules/module-requestlog.xsl,tags=documentation,replace="\|,\\|"]
+javadoc::code:partial$org/eclipse/jetty/server/CustomRequestLog.java[]
 
 [[resources]]
 == Module `resources`
